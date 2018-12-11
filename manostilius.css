@@ -1,0 +1,35 @@
+
+ body {
+    background-color: #ffe0c1;
+}
+ .antraste {
+    color: #6d451d;
+    font-style: bold;
+    text-align: center;
+}
+table {
+    margin: auto;
+    width: 80%;
+    text-align:center;
+    vertical-align: middle;
+    
+ }
+ .langelis {
+    height: 250pt;
+    text-align:center;
+    vertical-align: middle;
+}
+#vardas {
+    color: #6d451d;
+    text-align: right;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.tekstas {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: #6d451d;
+    text-align: center;
+}
+.linija {
+    background-color: #6d451d;
+    color: #6d451d;
+}

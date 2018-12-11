@@ -1,0 +1,45 @@
+ body {
+    background-image: url(fonas.jpg);
+}
+p {
+    display:inline-block;
+    background-color:#3d342f;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: white;
+    text-align: center;
+}
+ .antraste {
+    display:inline-block;
+    background-color:#3d342f;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.pastraipa{
+    display:inline-block;
+    background-color:#3d342f;
+    color: white;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+a:link {
+    display:inline-block;
+    background-color:#3d342f;
+    color: #fff2e5;
+    text-decoration: none;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+a:visited {
+    display:inline-block;
+    background-color:#3d342f;
+    color: #cec9c4;
+    text-decoration: none;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+a:hover {
+    display:inline-block;
+    background-color:#3d342f;
+    color: white;
+    text-decoration: none;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
