@@ -1,0 +1,12 @@
+body {
+    background-image: url(fonas.jpg);
+}
+.tekstas {
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    width: 60%;
+    box-shadow: 5px 7px 7px #6d3954;
+}

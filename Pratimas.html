@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Pratimasstyle.css">
+    </head>
+    <body>
+        <div class="tekstas">
+            <h1>Užduotys</h1>
+        </div>
+        <div class="tekstas">
+            <p style="color: rgb(48, 48, 48)";> . </p>
+            <p>Pirma užduotis</p>
+            <img src="varles.jpg" height="200">
+            <p>Kiek varlių yra paveikslėlyje?</p>
+            <input id="v4">
+            <button id="v5" onclick=patikrinkAr6()>Tikrinti</button>
+            <p > <img id="a1" src="nepaspausta.jpg" height="100"> </p>
+            <p style="color: rgb(48, 48, 48)";> . </p>
+        </div>
+        <br>
+        <div class="tekstas">
+            <p style="color: rgb(48, 48, 48)";> . </p>
+            <p>Antra užduotis</p>
+            <p>Koks yra šių skaičių didžiausias bendras daliklis?</p>
+            <p> 21, 49, 14</p>
+            <input id="v6">
+            <button onclick=patikrinkAr7()>Tikrinti </button>
+            <p > <img id="a2" src="nepaspausta.jpg" height="100"> </p>
+            <p style="color: rgb(48, 48, 48)";> . </p>
+        </div>
+        <br>
+        <div class="tekstas">
+            <p style="color: rgb(48, 48, 48)";> . </p>
+            <p>Trečia užduotis</p>
+            <img src="linijos.jpg" height="200">
+            <p>Kuri linija ilgesnė?</p>
+            <input id="v8">
+            <button onclick=patikrinkArA()>Tikrinti </button>
+            <p > <img id="a3" src="nepaspausta.jpg" height="100"> </p>
+            <p style="color: rgb(48, 48, 48)";> . </p>
+        </div>
+        <br>
+        <div class="tekstas">
+            <p style="color: rgb(48, 48, 48)";> . </p>
+            <p>Ketvirta užduotis</p>
+            <p>Kiek kilogramų sudaro 20000 gramų?</p>
+            <input id="v7">
+            <button onclick=patikrinkAr20()>Tikrinti </button>
+            <p > <img id="a4" src="nepaspausta.jpg" height="100"> </p>
+            <p style="color: rgb(48, 48, 48)";> . </p>
+        </div>
+        <br>
+        <div class="tekstas">
+            <p style="color: rgb(48, 48, 48)";> . </p>
+            <p>Penkta užduotis</p>
+            <img src="kvadratas.jpg" height="200">
+            <p>Koks kvadrato plotas?</p>
+            <input id="v9">
+            <button onclick=patikrinkAr64()>Tikrinti </button>
+            <p > <img id="a5" src="nepaspausta.jpg" height="100"> </p>
+            <p style="color: rgb(48, 48, 48)";> . </p>
+        </div>
+        <script>
+            function patikrinkAr6()
+            {
+                var y= Number(document.getElementById("v4").value);
+                console.log(y)
+                if(y==6)
+                    document.getElementById("a1").src="teisingai.jpg";
+                else document.getElementById("a1").src="neteisingai.jpg";
+            }
+            function patikrinkAr7()
+            {
+                var y= document.getElementById("v6").value;
+                if(y==7)
+                    document.getElementById("a2").src="teisingai.jpg";
+                else document.getElementById("a2").src="neteisingai.jpg";
+            }
+
+            function patikrinkAr20()
+            {
+                var y= document.getElementById("v7").value;
+                if(y==20)
+                    document.getElementById("a4").src="teisingai.jpg";
+                else document.getElementById("a4").src="neteisingai.jpg";
+            }
+            function patikrinkArA()
+            {
+                var y= document.getElementById("v8").value;
+                if(y=="A")
+                    document.getElementById("a3").src="teisingai.jpg";
+                else document.getElementById("a3").src="neteisingai.jpg";
+            }
+            function patikrinkAr64()
+            {
+                var y= document.getElementById("v9").value;
+                if(y=="64")
+                    document.getElementById("a5").src="teisingai.jpg";
+                else document.getElementById("a5").src="neteisingai.jpg";
+            }
+        </script>
+    </body>
+</html>
